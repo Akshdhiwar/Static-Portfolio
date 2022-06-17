@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e5e4e2;
+  position: fixed;
+  padding: 15px 0;
+}
+.navbar .sticky {
+  background-color: crimson;
+  padding: 20px 0;
+}
+.navbar .max-width {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .logo a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 35px;
+}
+.navbar .menu li a {
+  color: #111;
+  text-decoration: none;
+}
+.navbar .menu li {
+  margin-left: 30px;
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.logo span {
+  color: crimson;
+}
+.navbar .menu li a:hover {
+  color: crimson;
+}
+
+.home {
+  display: flex;
+  background: url("ab.jpg") no-repeat center;
+  height: 100vh;
+}
+.home .max-width {
+  margin: auto 0 auto 200px;
+}
+
+.text1 {
+  font-size: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+.text2 {
+  font-size: 75px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+}
+.text3 {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+.text3 span {
+  color: crimson;
+}
+
+.aboutme .max-width {
+  padding: 260px 0px 50px 0px;
+  height: 500px;
+  width: 100%;
+  margin: auto 0;
+}
+.max-width .title {
+  padding-left: 200px;
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: crimson;
+}
+.max-width .about-content {
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 27px;
+  font-weight: 100;
+}
+.exp .max-width {
+  padding: 100px 0px 50px 0px;
+  height: 500px;
+  width: 100%;
+  margin: auto 0;
+}
+.about-content h2 {
+  color: crimson;
+}
+.about-content ul li {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 27px;
+  font-weight: 100;
+}
